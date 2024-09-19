@@ -115,7 +115,7 @@ button {
   
     }
     button {
-        width: 310px;
+        width: 99%;
     }
     input[type="text"] {
         display: grid;
