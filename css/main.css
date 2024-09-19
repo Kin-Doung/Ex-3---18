@@ -103,6 +103,9 @@ button {
   
 }
 @media(max-width: 600px) {
+    .form-group{
+        text-align: center;
+    }
     .btn {
         display: flex;
         align-items: center;
@@ -116,11 +119,21 @@ button {
     }
     button {
         width: 99%;
+        border-radius: 2px;
+        font-size: 10px;
+        margin-left: 5px;
     }
     input[type="text"] {
+        font-size: 10px;
         display: grid;
         width: 99%;
-        margin-top: 12px;
+        margin-top: 10px;
+        margin-top: 10px;
+    }
+    input[type="password"],
+    input[type="email"] {
+    width: 99%;
+    font-size: 10px;
     }
     .description{
         display: none;
@@ -130,6 +143,10 @@ button {
     }
     .btn a {
         margin-top: 10px;
+        font-size: 10px;
+    }
+    h2{
+        font-size: 15px;
     }
 
 }
